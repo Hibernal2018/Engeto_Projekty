@@ -34,8 +34,7 @@ author: Milan Novák
 email: novakmilan@email.cz
 discord: milannovak_77018
 """
-print(" ")
-print(" ")
+
 # přihlášení oprávněného uživatele
 cara = "-" * 40
 uzivatel = dict(bob="123", ann="pass123", mike="password123", liz="pass123")  
