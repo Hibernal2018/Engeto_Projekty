@@ -85,7 +85,7 @@ cisla = 0  # prvky obsahujici jen cisla
 soucet_cisel = 0  # soucet vsech cisel v listu
 
 for prvek_listu in text:  # cyklus prochází list text
-    if prvek_listu.istitle() and prvek_listu[0].isalpha():
+    if prvek_listu[0].isupper() and prvek_listu[0].isalpha():
         prvni_velke += 1
     if prvek_listu.isupper() and prvek_listu.isalpha():
         vsechna_velka += 1
