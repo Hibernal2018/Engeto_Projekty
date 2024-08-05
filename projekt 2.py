@@ -43,7 +43,7 @@ while True:
         # vstup uzivatele, kontrola vstupu; má 4 znaky, obsahuje jen čísla, nezačíná nulou, není duplicita
         cislo_uzivatel = input("Enter a number: ")
         while True:
-            if len(cislo_uzivatel) != 4 or not cislo_uzivatel.isdigit() or         cislo_uzivatel[0] == "0":
+            if len(cislo_uzivatel) != 4 or not cislo_uzivatel.isdigit() or cislo_uzivatel[0] == "0":
                 cislo_uzivatel = input("Wrong input! Try again.\nEnter a number: ")
                 continue
             if len(set(cislo_uzivatel)) != 4:
