@@ -36,8 +36,7 @@ while True:
         prvek_nahodne = str(randrange(0,10))
         if prvek_nahodne not in list_nahodne_start:
             list_nahodne_start.append(prvek_nahodne)
-    print(list_nahodne_start)
-        
+            
     # nekonecna smycka
     while True:
         # vstup uzivatele, kontrola vstupu; má 4 znaky, obsahuje jen čísla, nezačíná nulou, není duplicita
